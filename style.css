@@ -1,0 +1,576 @@
+:root {
+  --roboto: "Roboto", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --brown: #b78601;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 770px;
+  background: url("./img/victor-garcia-1263465-unsplash.png") no-repeat center center / cover;
+}
+
+.active {
+  color: var(--brown) !important;
+}
+
+header .bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.95);
+  padding-bottom: 225px;
+  padding-top: 25px;
+}
+
+header .bg .top_navbar .logo,
+footer .top_navbar .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--roboto);
+}
+
+header .bg .top_navbar .logo span,
+footer .top_navbar .logo span {
+  color: var(--brown);
+}
+
+header .bg .top_navbar ul li,
+footer .top_navbar ul li {
+  margin-left: 45px;
+}
+
+header .bg .top_navbar ul li a,
+footer .top_navbar ul li a {
+  font-family: var(--roboto);
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 500ms ease;
+  cursor: pointer;
+}
+
+header .bg .top_navbar ul li a:hover,
+footer .top_navbar ul li a:hover {
+  color: var(--brown);
+  text-decoration: none;
+}
+
+header .bg .title_text {
+  margin-top: 190px;
+  font-family: var(--montserrat);
+}
+
+header .bg .title_text h2 {
+  font-size: 45px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+header .bg .title_text h1 {
+  color: var(--brown);
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+header .bg .title_text p {
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+header .bg .title_text button {
+  border-radius: 35px;
+  color: white;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 20px 60px;
+}
+
+section {
+  width: 100%;
+}
+
+section .title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #565656;
+  font-family: var(--roboto);
+}
+
+section .product .title {
+  margin-bottom: 85px;
+}
+
+section .product {
+  width: 100%;
+  padding: 150px 0 100px 0;
+}
+
+/* Section Contact Page Stle starting */
+section .contact {
+  width: 100%;
+  background-color: #181818;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+section .contact .title {
+  color: white;
+  margin-bottom: 100px;
+}
+
+section .contact .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+section .contact .user_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+section .contact .user_name span {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-right: 20px;
+}
+
+section .contact .user_name h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+  text-transform: capitalize;
+  font-family: var(--roboto);
+}
+
+section .contact p {
+  font-weight: 300;
+  text-align: center;
+  font-family: var(--roboto);
+  font-size: 18px;
+  color: white;
+  line-height: 29px;
+}
+
+/* Section Room style starting */
+section .room {
+  width: 100%;
+  padding: 150px 0;
+}
+
+section .room .titles {
+  margin-bottom: 100px;
+}
+
+section .room .img {
+  border: 1px solid #181818;
+}
+
+section .room .body_text {
+  background-color: #181818;
+  padding: 25px 60px 40px 30px;
+  color: white;
+  font-family: var(--roboto);
+}
+
+section .room .body_text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+section .room .body_text p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* Section about page style */
+
+section .about {
+  width: 100%;
+  background: url("./img/about.png") no-repeat center center / cover;
+  background-attachment: fixed;
+}
+
+section .about .bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.85);
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+section .about .bg h1 {
+  color: white;
+  font-size: 75px;
+  font-weight: 700;
+  font-family: var(--roboto);
+  margin-bottom: 40px;
+}
+
+section .about .bg p {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: var(--roboto);
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+section .about .bg a {
+  padding: 20px 70px;
+  border-radius: 30px;
+  color: white;
+  text-transform: capitalize;
+  border: 2px solid white;
+}
+
+footer {
+  width: 100%;
+  padding: 100px 0 30px;
+  background-color: #181818;
+}
+
+footer .footer_body_text .left_text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--roboto);
+  color: #7b7b7b;
+  line-height: 22px;
+}
+
+footer .footer_body_text a{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 15px; 
+}
+
+footer .footer_body_text .right_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+   margin-bottom: 15px; 
+}
+
+footer .bottom_text {
+  text-align: center;
+  font-family: var(--roboto);
+  color: white;
+}
+
+footer .bottom_text span {
+  font-size: 20px;
+}
+
+footer .bottom_text span span {
+  color: var(--brown);
+}
+
+@media (max-width: 1200px) {
+  header .bg .title_text {
+    margin-top: 140px;
+  }
+
+  header .bg .title_text h1 {
+    font-size: 48px;
+  }
+
+  header .bg .title_text h2 {
+    font-size: 40px;
+  }
+
+  section .contact p {
+    font-size: 15px;
+  }
+
+  section .room .body_text {
+    padding: 25px 42px 40px 30px;
+  }
+
+  section .about .bg p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* Header ichidagi  */
+  header {
+    max-height: 700px;
+  }
+
+  header .bg .title_text h1 {
+    font-size: 40px;
+  }
+
+  header .bg .title_text h2 {
+    font-size: 35px;
+  }
+
+  header .bg .title_text p {
+    font-size: 18px;
+  }
+
+  header .bg .title_text button {
+    padding: 15px 60px;
+  }
+
+  /* Section ichidagi about */
+  section .about .bg {
+    padding-top: 150px;
+  }
+
+  section .about .bg h1 {
+    font-size: 65px;
+  }
+
+  section .about .bg p {
+    font-size: 15px;
+  }
+
+  section .about .bg a {
+    padding: 15px 60px;
+  }
+
+  /* footer ichidagi  */
+  footer {
+    padding: 70px 0 10px;
+  }
+
+  header .bg .top_navbar ul li a,
+  footer .top_navbar ul li a {
+    font-size: 17px;
+  }
+
+  footer .footer_body_text a{
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  footer .footer_body_text .right_text {
+    font-size: 16px;
+  }
+
+  footer .bottom_text {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* header ichidagi */
+  header {
+    max-height: 620px;
+  }
+
+  header .bg .title_text {
+    margin-top: 120px;
+  }
+
+  header .bg .title_text h1 {
+    font-size: 31px;
+    margin-bottom: 35px;
+  }
+
+  header .bg .title_text h2 {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+
+  header .bg .title_text p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  header .bg .title_text button {
+    padding: 10px 50px;
+  }
+
+  /* section */
+  section .product {
+    padding: 100px 0;
+  }
+
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  section .contact p {
+    word-spacing: 2px;
+    line-height: inherit;
+  }
+
+  section .room {
+    padding: 100px 0;
+  }
+
+  section .about .bg p {
+    line-height: 24px;
+  }
+
+  section .about .bg a {
+    padding: 10px 55px;
+  }
+
+  /* footer */
+
+  
+
+  footer .bottom_text {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 576px) {
+
+  header {
+    max-height: 460px;
+  }
+
+  header .bg .title_text {
+    margin-top: 50px;
+  }
+
+  header .bg .title_text h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  header .bg .title_text h1 {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+
+  header .bg .title_text p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+
+  /* section product */
+
+
+  section .room ,
+  section .product {
+    padding: 35px 0;
+  }
+
+  section .room .titles ,
+  section .product .title {
+    margin-bottom: 50px;
+  }
+
+  /* section room */
+
+  section .room .body_text {
+    padding: 10px 12px 1px 12px;
+}
+
+section .room .body_text h4 {
+  font-size: 14px;
+}
+
+section .room .body_text p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* section contact */
+
+section .contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section .contact .user_name {
+  margin-bottom: 10px;
+}
+
+section .contact .title {
+  margin-bottom: 65px;
+}
+
+/* section about */
+
+section .about .bg {
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+section .about .bg p {
+  word-spacing: 3px;
+  line-height: 20px;
+  font-size: 13px;
+  margin-bottom: 45px;
+}
+
+section .about .bg h1 {
+  font-size: 37px;
+  margin-bottom: 15px;
+}
+
+section .about .bg a {
+  padding: 5px 40px;
+}
+
+/* Footer */
+
+footer {
+  padding: 40px 0 10px;
+}
+
+footer .footer_body_text a{
+  margin-bottom: 0;
+}
+
+footer .footer_body_text .left_text {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: var(--roboto);
+  color: #7b7b7b;
+  line-height: 15px; 
+}
+
+footer .footer_body_text a {
+  font-size: 14px;
+}
+
+footer .footer_body_text .right_text {
+  font-size: 16px;
+}
+
+  
+}
